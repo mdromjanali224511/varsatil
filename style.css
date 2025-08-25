@@ -135,7 +135,7 @@ border-radius: 50%;
     .mainimage{
     display: flex;
     text-align: center;
-    gap: 80px;
+   gap: 20px;
     }
     #title{
         margin-bottom: 20px;
@@ -145,17 +145,59 @@ border-radius: 50%;
     text-align: center;
     margin: 100px 0 50px 0;
 }
+/* extra */
+ .extramain{
+    background: rgba(48, 48, 48, 1);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    width: 100%;
+   }
+   #p{
+    margin-bottom: 10px;
+   }
+   #h{
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 2rem;
+   }
+.extratext{
+    margin-bottom: 10px;
+      height: 150px;
+  width: 350px;
+  margin: auto;
+}
+.imagess{
+  height: 200px;
+  width: 350px;
+    border-radius: 5px;
+   
 
+}
 
 
       /* responsive */
+
       @media screen and (max-width:576px) {
         .baner, .nav{
             flex-direction: column;
            text-align: center;
+           gap: 20px;
         }
-        .banerimagev{
+        .mainimage{
+           flex-direction: column;
+            justify-content: center;
+         gap: 30px;
+           
+        }
+        .banerimage{
         margin: auto;
+        }
+        .extramain{
+            flex-direction: column;
+            text-align: center;
         }
         
       }
