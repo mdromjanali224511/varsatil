@@ -1,0 +1,137 @@
+ body{
+            background: rgba(17, 17, 17, 1);
+        }
+        :root{
+            --primary-color:rgba(255, 255, 255, 0.5);
+            --model-color:rgba(255, 255, 255, 1);
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .maxwidth{
+            width: 800px;
+            margin: 0 auto;
+        }
+           /* nav */
+           .webname{
+            color: rgba(230, 83, 60, 1);
+            font-weight: 800;
+            font-style: italic;
+            font-size: 2rem;
+
+           }
+        .nav{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .menu ul{
+            display: flex;
+            align-items: center;
+        }
+        .menu li{
+            list-style: none;
+            margin-left: 20px;
+        }
+        .menu a{
+            color: rgba(255, 255, 255, 1);
+            text-decoration: none;
+        }
+        .button{
+            background: rgba(230, 83, 60, 1);
+            color: rgba(255, 255, 255, 1);
+            border-radius: 46px;
+            border: none;
+            padding: 8px 20px;
+        }
+        /* baner */
+ .banertitle{
+        color: var(--model-color);
+        font-weight: 1100;
+        font-size: 3rem;
+        margin: 50px 0 18px 0;
+     }
+    .shepe{
+ 
+  font-style: italic;
+}
+
+.banerdecription{
+    color: var(--primary-color);
+    margin-bottom: 18px;
+}
+.buttonn{
+    color: var(--model-color);
+    padding: 8px 15px;
+    border: 1px solid var(--model-color);
+    border-radius: 46px;
+    background: none;
+}
+.banerimage{
+    background-image: url(./images/Images\ 2.png);
+    background-size: cover;
+    height: 450px;
+    width: 300px;
+margin: auto;
+    position: relative;
+}
+     .banerbutton{
+        background: rgba(48, 48, 48, 1);
+        color: var(--primary-color);
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+       background: blu;
+     }
+    .banerbutto{
+          background: rgba(48, 48, 48, 1);
+        color: var(--primary-color);
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-right: -50px;
+        margin-top: 50px;
+    }
+       .buttonround{
+background: rgba(230, 83, 60, 1);
+height: 20px;
+width: 20px;
+border-radius: 50%;
+
+
+       }
+       .buttonp{
+        color: var(--primary-color);
+       }
+       .btn-strong{
+        color: var(--model-color);
+       }
+      #lef{
+        position: absolute;
+   right: 0;
+   top: 0;
+     display: block;
+      }
+      
+      #righ{
+     margin: 350px 0px 0px -40px;
+      }
+      .baner{
+        display: flex;
+        gap: 80px;
+        margin-top: 50px;
+      }
+      /* responsive */
+      @media screen and (max-width:576px) {
+        .baner, .nav{
+            flex-direction: column;
+           text-align: center;
+        }
+        .banerimagev{
+        margin: auto;
+        }
+        
+      }
