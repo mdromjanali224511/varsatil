@@ -124,6 +124,30 @@ border-radius: 50%;
         gap: 80px;
         margin-top: 50px;
       }
+/* images section */
+ .mainh{
+        color: var(--model-color);
+    }
+    .img{
+       
+        border-radius: 50%;
+    }
+    .mainimage{
+    display: flex;
+    text-align: center;
+    gap: 80px;
+    }
+    #title{
+        margin-bottom: 20px;
+    }
+.maintitle{
+    
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+
+
       /* responsive */
       @media screen and (max-width:576px) {
         .baner, .nav{
