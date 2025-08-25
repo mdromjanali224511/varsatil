@@ -176,7 +176,72 @@ border-radius: 50%;
    
 
 }
-
+/* table */
+ th, td{
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+th{
+    color: rgba(255, 255, 255, 1);;
+}
+.max{
+    background: rgba(34, 34, 34, 1);
+    gap: 50px;
+}
+.tablediv{
+    padding: 0px 0 30px 50px;
+}
+/* bmi menu */
+   label{
+        
+        background: rgba(255, 255, 255, 0.5);
+       }
+       input, option{
+        color: whitesmoke;
+        padding: 10px;
+        background-color: rgb(136, 134, 134);
+        border-radius: 20PX;
+        outline: none;
+        border: none;
+       }
+       .subtable{
+        display: flex;
+        padding-top: 50px;
+        
+     gap: 50px
+       
+       }
+       ::placeholder{
+        color: aliceblue;
+       }
+       .from{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 20px;
+       }
+      .selectdhaka{
+        background: rgb(136, 134, 134);
+        width: 100%;
+       grid-column: span 2;
+        padding: 10px;
+        display: grid;
+      }
+      .selectmale{
+           background: rgb(136, 134, 134);
+        width: 100%;
+     
+        padding: 10px;
+      }
+      .label{
+        grid-column: span 2;
+      }
 
       /* responsive */
 
