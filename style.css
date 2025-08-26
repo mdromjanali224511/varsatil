@@ -382,5 +382,9 @@ background-position: top center;
       .meetteamimages{
         grid-template-columns: 1fr;
       }
+      .footerdiv{
+        flex-direction: column;
+        
+      }
         
       }
