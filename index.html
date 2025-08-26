@@ -7,7 +7,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="style.css">
     <style>
+    .bg1{
+        background-image: url(./images/exercise1.jpg);
+        background-size: cover;
+        width: 30%;
+      position: relative;
+        
+    }
+    .bg2{
+        background-image: url(./images/exercise2.png);
+        background-size: cover;
+         width: 40%;
+      
+        height: 200px;
+    }
+    .bg1::after{
+        content: '';
+          background: rgba(204, 68, 14, .5);
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          left: 0;
+          right: 0;
+    }
+    .bg3{
+        background-image: url(./images/exercise3.png);
+         width: 30%;
+        height: auto;background-size: cover;
+        background-size: cover;
+    }
     
+    .bg4{
+        background-image: url(./images/exercise4.png);
+        width: 30%;
+      background-size: cover;
+    }
+    .bg5{
+        background-image: url(./images/exercise5.jpg);
+        width: 30%;background-size: cover;
+    }
+    .bg6{
+        background-image: url(./images/exercise6.jpg);
+         width: 40%;
+      background-size: cover;
+        height: 200px;
+    }
+    .firstthree{
+        display: flex;
+        gap: 20px;
+    }
+   .secondthree{
+    display: flex;
+     gap: 20px;
+   }
     </style>
 </head>
 <body>
@@ -124,6 +176,20 @@
                 </div>
             </div>
         </section>
+         <div class="bgima">
+        <div class="firstthree">
+            <div class="bg1">gghfghfg</div>
+        <div class="bg2">xfg</div>
+        <div class="bg3">fdg</div>
+        </div>
+        <div class="secondthree">
+            <div class="bg4">fg</div>
+        <div id="hidd" class="bg5">df</div>
+        <div id="hidd" class="bg6">f</div>
+        </div>
+        
+    </div>
+
         <section class="max">
             <div class="subtable maxwidth">
  <div class="tablediv">
@@ -185,15 +251,7 @@
            
         </section>
     </main>
-    <div class="bgima">
-        <div class="bg1"></div>
-        <div class="bg2"></div>
-        <div class="bg3"></div>
-        <div class="bg4"></div>
-        <div class="bg5"></div>
-        <div class="bg6"></div>
-    </div>
-
+   
 </body>
     </div>
     

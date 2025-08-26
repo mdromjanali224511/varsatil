@@ -264,5 +264,8 @@ th{
             flex-direction: column;
             text-align: center;
         }
+       .secondthree{
+            display: hidden;
+        }
         
       }
