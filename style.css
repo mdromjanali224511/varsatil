@@ -296,6 +296,63 @@ th{
       .label{
         grid-column: span 2;
       }
+      /* team images */
+      .meetteamimages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+ gap: 20px;
+   }
+   .bgimages1,
+   .bgimages2,
+   .bgimages3,
+   .bgimages4,
+   .bgimages5,
+   .bgimages6{
+    height: 350px;    
+       border-radius: 30px;
+   }
+.bgimages1{
+    background-image: url(./images/trainer1.png);
+background-size: cover;
+background-position: top center;
+background-position: top center;
+}
+.bgimages2{
+    background-image: url(./images/trainer2.png);
+background-size: cover;
+background-position: top center;
+}
+.bgimages3{
+    background-image: url(./images/trainer3.png);
+    background-size: cover;
+background-position: top center;
+}
+.bgimages4{
+    background-image: url(./images/trainer4.png);
+    background-size: cover;
+background-position: top center;
+}
+.bgimages5{
+    background-image: url(./images/trainer5.png);
+    background-size: cover;
+background-position: top center;
+}
+.bgimages6{
+    background-image: url(./images/trainer6.png);
+    background-size: cover;    
+background-position: top center;
+}
+.j{
+    margin: 260px 0 0 30px;
+}
+.meetteam{
+    text-align: center;
+    margin-top: 50px;
+}
+.textteam{
+    margin-bottom: 20px;
+}
 
       /* responsive */
 
@@ -321,6 +378,9 @@ th{
       .subtable{
         flex-direction: column;
        text-align: center;
+      }
+      .meetteamimages{
+        grid-template-columns: 1fr;
       }
         
       }
